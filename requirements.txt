@@ -1,0 +1,4 @@
+pyperclip
+pyttsx3==2.91
+keyboard
+pynput
