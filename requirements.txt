@@ -3,3 +3,5 @@ pyttsx3==2.91
 keyboard
 pynput
 pyautogui
+gTTS
+playsound==1.2.2
