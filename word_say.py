@@ -7,6 +7,9 @@ flag = True
 stopword = 'stopit'
 tts_queue = queue.Queue()
 tts_engine = pyttsx3.init()
+# voices id [0] - mail defaulf, [1] female
+voices = tts_engine.getProperty('voices')
+tts_engine.setProperty('voice', voices[1].id)
 
 print(f'This will say every word you print. For exit print: {stopword}')
 

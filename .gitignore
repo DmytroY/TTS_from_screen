@@ -1,2 +1,5 @@
 temp.py
 venv
+build/
+dist/
+*.spec

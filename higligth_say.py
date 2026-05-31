@@ -26,6 +26,9 @@ listener = mouse.Listener(on_click=on_click)
 listener.start()
 
 tts_engine = pyttsx3.init()
+# # voices id [0] - mail defaulf, [1] female
+# voices = tts_engine.getProperty('voices')
+# tts_engine.setProperty('voice', voices[1].id)
 
 try:
     while True:
